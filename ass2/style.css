@@ -1,0 +1,112 @@
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    .nav ul li {
+      display: inline-block;
+    }
+
+    .nav ul li a {
+      display: block;
+      color: #000;
+      padding: 10px 10px;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+
+    .nav ul li a.active {
+      background: #5385c1;
+      color: white;
+    }
+
+    .nav ul li a:hover:not(.active) {
+      background-color: #384d84;
+      color: white;
+    }
+
+    .g-container {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .banner {
+      width: 1000px;
+      margin-bottom: 20px;
+    }
+
+    .right-box {
+      overflow: hidden;
+    }
+
+    .home-box h2 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-top: 20px;
+      color: #5385c1;
+    }
+
+    .home-box p {
+      line-height: 1.5;
+      padding-top: 10px;
+    }
+
+    .f-tr {
+      text-align: right !important;
+    }
+
+    .products-list li {
+      padding: 15px;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+
+    .references-list li {
+      line-height: 2.5;
+    }
+
+    .right-box .title {
+
+      font-weight: bold;
+    }
+
+    .top {
+      position: fixed;
+      right: 10px;
+      bottom: 50px;
+    }
+
+    .team-box a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    #buttons {
+      margin-top: 20px;
+    }
+
+    #buttons button {
+      padding: 8px 15px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      color: #fff;
+      background-color: palevioletred;
+
+    }
+
+    #divs {
+      margin-top: 20px;
+      line-height: 2;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      background: #eee;
+    }
